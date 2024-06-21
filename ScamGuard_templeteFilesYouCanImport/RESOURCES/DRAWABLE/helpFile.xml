@@ -1,0 +1,33 @@
+﻿<help>
+	<section title="Reporting a Scammer">
+		<description>
+			To report a scammer, follow these steps:
+			1. Tap on the "Report Scammer" button on the main screen.
+			2. Fill in the required information, including username, email, phone number, website, severity, and description.
+			3. Submit the report by tapping the "Submit" button.
+		</description>
+	</section>
+	<section title="Viewing Scammers List">
+		<description>
+			The Scammers List displays reported scammers. Scroll through the list to browse, and tap on a scammer to view more details.
+		</description>
+	</section>
+	<section title="Updating Scammer Information">
+		<description>
+			To update a scammer's information, follow these steps:
+			1. Tap on the scammer in the list to view details.
+			2. Tap on the "Edit" button.
+			3. Make the necessary changes and save the updated information by tapping the "Save" button.
+		</description>
+	</section>
+	<section title="Deleting a Scammer">
+		<description>
+			To delete a scammer's report, swipe left on the scammer in the list, and tap the "Delete" button.
+		</description>
+	</section>
+	<section title="Help and Support">
+		<description>
+			For further assistance or questions, tap on the "Help" button on the main screen or contact our support team at support@scamguard.com.
+		</description>
+	</section>
+</help>

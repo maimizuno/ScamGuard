@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- Set the color of the selected radio button -->
+    <solid android:color="#FF0000" />
+	<!-- Set the size of the radio button -->
+    <size android:width="20dp" android:height="20dp" />
+	<!-- Set the corner radius of the radio button -->
+    <corners android:radius="10dp" />
+</shape>

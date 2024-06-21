@@ -1,0 +1,101 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ScamGuard</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ScamGuard</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ScamGuard.csproj" File="ScamGuard.csproj" ReplaceParameters="true">
+      <Folder Name="Assets" TargetFolderName="Assets">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutAssets.txt">AboutAssets.txt</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DatabaseHelper.cs">DatabaseHelper.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EditScammerActivity.cs">EditScammerActivity.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainActivity.cs">MainActivity.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AndroidManifest.xml">AndroidManifest.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReportActivity.cs">ReportActivity.cs</ProjectItem>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutResources.txt">AboutResources.txt</ProjectItem>
+        <Folder Name="drawable" TargetFolderName="drawable">
+          <ProjectItem ReplaceParameters="true" TargetFileName="edittext_line.xml">edittext_line.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="helpFile.xml">helpFile.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="radio_button_selected.xml">radio_button_selected.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="radio_button_selector.xml">radio_button_selector.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="radio_button_unselected.xml">radio_button_unselected.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="searchview_background.xml">searchview_background.xml</ProjectItem>
+        </Folder>
+        <Folder Name="layout" TargetFolderName="layout">
+          <ProjectItem ReplaceParameters="true" TargetFileName="activity_main.xml">activity_main.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="activity_report_form.xml">activity_report_form.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="edit_scammer.xml">edit_scammer.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="scammer_list_item.xml">scammer_list_item.xml</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-anydpi-v26" TargetFolderName="mipmap-anydpi-v26">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ic_launcher.xml">ic_launcher.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ic_launcher_round.xml">ic_launcher_round.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ic_launcher2.xml">ic_launcher2.xml</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-hdpi" TargetFolderName="mipmap-hdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="background.png">background.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="background2.jpg">background2.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="background3.jpg">background3.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="background4.jpg">background4.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="comment.png">comment.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="edit.png">edit.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher.png">ic_launcher.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_adaptive_back.png">ic_launcher_adaptive_back.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_adaptive_fore.png">ic_launcher_adaptive_fore.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_foreground.png">ic_launcher_foreground.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_round.png">ic_launcher_round.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher2.png">ic_launcher2.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="logo.png">logo.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="pencil.png">pencil.png</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-mdpi" TargetFolderName="mipmap-mdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher.png">ic_launcher.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_adaptive_back.png">ic_launcher_adaptive_back.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_adaptive_fore.png">ic_launcher_adaptive_fore.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_foreground.png">ic_launcher_foreground.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_round.png">ic_launcher_round.png</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-xhdpi" TargetFolderName="mipmap-xhdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher.png">ic_launcher.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_adaptive_back.png">ic_launcher_adaptive_back.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_adaptive_fore.png">ic_launcher_adaptive_fore.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_foreground.png">ic_launcher_foreground.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_round.png">ic_launcher_round.png</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-xxhdpi" TargetFolderName="mipmap-xxhdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher.png">ic_launcher.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_adaptive_back.png">ic_launcher_adaptive_back.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_adaptive_fore.png">ic_launcher_adaptive_fore.png</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-xxxhdpi" TargetFolderName="mipmap-xxxhdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher.png">ic_launcher.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_adaptive_back.png">ic_launcher_adaptive_back.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ic_launcher_adaptive_fore.png">ic_launcher_adaptive_fore.png</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resource.designer.cs">Resource.designer.cs</ProjectItem>
+        <Folder Name="values" TargetFolderName="values">
+          <ProjectItem ReplaceParameters="true" TargetFileName="colors.xml">colors.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ic_launcher_background.xml">ic_launcher_background.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="strings.xml">strings.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="styles.xml">styles.xml</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ScammerAdapter.cs">ScammerAdapter.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">$safeprojectname$</string>
+
+	<string name="app_reportGuidance">
+		You may know little about your scammer, which is fine. You can enter one or more fields below.
+	</string>
+	<string name="action_settings">Settings</string>
+	<string name="app_description">
+		Don\'t let scammers thrive in anonymity.
+		\n
+		\nJoin $safeprojectname$ today and be part of a global effort to expose fraudsters, protect innocent individuals, and ensure a safer online environment for all.
+	</string>
+	<string name="scam_description_example">
+		I received a security breach email informing of attempted unauthorised access to my bank accont and encouraging me to change my password. As a result, funds were taken without my knowledge."
+	</string>
+</resources>
+
